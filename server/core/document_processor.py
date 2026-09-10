@@ -4,12 +4,11 @@ import aiofiles
 from typing import List
 from fastapi import UploadFile
 
-from langchain.document_loaders import PyPDFLoader
-from langchain.text_splitter import TokenTextSplitter
+from langchain_community.document_loaders import PyPDFLoader
+from langchain_text_splitters import TokenTextSplitter
 
-from config.settings import TEMPFILE_UPLOAD_DIRECTORY
-from utils.logger import logger
-
+from server.config.settings import TEMPFILE_UPLOAD_DIRECTORY
+from server.utils.logger import logger
 
 def validate_pdf(file: UploadFile, max_size_mb: int = 200):
   if not file.filename.endswith(".pdf"):

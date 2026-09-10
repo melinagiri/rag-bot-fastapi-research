@@ -1,15 +1,20 @@
 from fastapi import APIRouter, UploadFile, File, Form
 
-from config.settings import MODEL_OPTIONS
-from core.vector_database import (
+# from config.settings import MODEL_OPTIONS
+from server.config.settings import MODEL_OPTIONS
+# from core.vector_database import (
+from server.core.vector_database import (
     get_collections_count,
     find_similar_chunks,
     upsert_vectorstore_from_pdfs,
     load_vectorstore
 )
-from core.llm_chain_factory import build_llm_chain
-from api.schemas import SearchQueryRequest, ChatRequest, StandardAPIResponse
-from utils.logger import logger
+# from core.llm_chain_factory import build_llm_chain
+from server.core.llm_chain_factory import build_llm_chain
+# from api.schemas import SearchQueryRequest, ChatRequest, StandardAPIResponse
+from server.api.schemas import SearchQueryRequest, ChatRequest, StandardAPIResponse
+# from utils.logger import logger
+from server.utils.logger import logger
 
 router = APIRouter()
 

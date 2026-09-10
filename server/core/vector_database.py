@@ -3,15 +3,15 @@ import os
 from typing import List
 from fastapi import UploadFile
 
-from config.settings import GOOGLE_API_KEY, VECTORSTORE_DIRECTORY, MODEL_OPTIONS
-from core.document_processor import save_uploaded_file, load_documents_from_paths, split_documents_to_chunks
+from server.config.settings import GOOGLE_API_KEY, VECTORSTORE_DIRECTORY, MODEL_OPTIONS
+from server.core.document_processor import save_uploaded_file, load_documents_from_paths, split_documents_to_chunks
 
-from langchain.embeddings import HuggingFaceEmbeddings
+from langchain_community.embeddings import HuggingFaceEmbeddings
+
 from langchain_community.vectorstores import Chroma
 from langchain_google_genai import GoogleGenerativeAIEmbeddings
 
-from utils.logger import logger
-
+from server.utils.logger import logger
 
 def vectorstore_exists(persist_path: str) -> bool:
   exists = os.path.exists(persist_path) and bool(os.listdir(persist_path))

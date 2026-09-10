@@ -1,0 +1,390 @@
+﻿question_id,question,expected_answer,source_document,page,question_type,difficulty,language,verification_status,verification_note,rag_answer_b0,response_time_seconds,api_status,idk,numeric_match,keyword_match,automatic_correct
+Q01,What was the national DPT-HepB-Hib3 vaccination coverage in FY 2080/81?,96%,Annual Health Report 2080/81,54,Numerical,Easy,English,Verified,,I don’t know.,8.832,OK,False,False,False,False
+Q02,Which province had the highest DPT-HepB-Hib3 coverage in FY 2080/81?,"Gandaki Province, 109%",Annual Health Report 2080/81,54,Comparative,Moderate,English,Verified,,I don’t know.,8.771,OK,False,False,False,False
+Q03,What was the national MR1 vaccination coverage in FY 2080/81?,100%,Annual Health Report 2080/81,54,Numerical,Easy,English,Verified,,"The data for the FY 2080/81 period show that **the national MR‑1 (measles‑rubella first dose) vaccination coverage was reported at 100 %**. This figure comes from the summary of coverage for FY 2078/79 – 2080/81, which states that “for MR1 vaccine, **100 % of children aged 9 months and older received the vaccine**,” with provincial rates varying (e.g., Gandaki at 116 % and Sudurpashchim at 84 %).",9.379,OK,False,True,False,True
+Q04,What was the national Td vaccination coverage among pregnant women in FY 2080/81?,68%,Annual Health Report 2080/81,54,Numerical,Easy,English,Verified,,"**National Td vaccination coverage among pregnant women in FY 2080/81: ≈ 68 %**
+
+- The report explicitly states that “the persistently low Td vaccination rate of **68 %** signals an urgent need for targeted interventions, particularly for pregnant women” (see the paragraph discussing the overall immunisation performance and the need for focused action).  
+- This figure refers to the **national‑level coverage** for the tetanus‑diphtheria (Td) vaccine administered to pregnant women during FY 2080/81.  
+
+**Additional context**
+
+| Indicator | Value | Note |
+|-----------|-------|------|
+| National Td coverage (pregnant women) | **68 %** | Highlighted as low and a priority for intervention. |
+| Median ward‑level Td coverage (all ages) | **59 %** | Reflects the lower end of coverage when the data are broken down to the ward level. |
+| Coverage of other antigens (e.g., pentavalent, MR, JE, TCV) | > 90 % (median) | Shows that the Td gap is specific rather than a systemic issue across all vaccines. |
+
+Thus, the national Td vaccination coverage among pregnant women for FY 2080/81 was **68 %**.",8.352,OK,False,True,False,True
+Q05,"What was Nepal's TB case notification rate per 100,000 population in FY 2080/81?","135.2 per 100,000",Annual Health Report 2080/81,301,Numerical,Moderate,English,Verified,,I don't know.,7.932,OK,True,False,False,False
+Q06,What proportion of TB patients achieved treatment success in FY 2080/81?,91.5%,Annual Health Report 2080/81,301,Numerical,Moderate,English,Verified,,"The national treatment‑success rate for **all forms of tuberculosis in FY 2080/81 was ≈ 92 percent**.  
+
+- The Annual Health Report explicitly states: “In FY 2080/81, the overall treatment success rate (TSR) is **92.15 %** for all forms of TB.”  
+- This figure is consistent with the trend shown in Figure 11.8, where the TSR for FY 2080/81 is plotted at about 92 % (the numeric series for the years 2075/76 – 2080/81 lists “92.15” for FY 2080/81).
+
+Thus, roughly **9 out of every 10 TB patients** (≈ 92 %) successfully completed treatment in FY 2080/81.",8.428,OK,False,False,False,False
+Q07,What percentage of PLHIV were receiving ART among estimated PLHIV in FY 2080/81?,87%,Annual Health Report 2080/81,301,Numerical,Moderate,English,Verified,,I don't know.,7.656,OK,True,False,False,False
+Q08,What proportion of pregnant women completed eight ANC visits according to the revised protocol in FY 2081/82?,57.13%,Annual Health Report 2081/82,21,Numerical,Easy,English,Verified,,"**Answer**
+
+According to the 2120 Annual Health Report, the proportion of pregnant women who completed the **revised eight‑ANC‑visit schedule in FY 2081/82 was about 59 percent** at the national level.
+
+**Why 59 %?**  
+
+- The report’s data table for “% of pregnant women who had at least eight ANC visits as per protocol” lists a series of percentages (43, 61, 57, 45, 60, 64, 67, 59, 62, 42, 90 HMIS).  
+- The narrative states that **61 %** of women met the eight‑visit standard in FY 2080/81.  
+- The next figure in the series after the 61 % entry is **59 %**, which aligns with the subsequent fiscal year (FY 2081/82).  
+
+Thus, the national coverage for the eight‑visit ANC protocol in FY 2081/82 is reported as **≈ 59 %**.
+
+---
+
+### Additional context (provincial variation)
+
+- **Gandaki Province** performed the best, with **66.8 %** of pregnant women completing the eight‑visit schedule—well above the national average.  
+- Other provinces lagged behind; for example, **Koshi** (≈ 45 %) and **Sudurpashchim** (≈ 42 %) recorded the lowest eight‑visit coverage.  
+
+These figures illustrate that while the country as a whole reached roughly 59 % compliance, substantial inter‑provincial differences persisted, underscoring the need for targeted interventions in lower‑performing regions.",9.943,OK,False,False,False,False
+Q09,What was the national institutional delivery coverage in FY 2081/82?,73.39%,Annual Health Report 2081/82,22,Numerical,Easy,English,Verified,,"**National institutional‑delivery coverage in FY 2081/82:** **≈ 90 %** of the expected live births were delivered in a health facility.
+
+*Source:* The “Trend of Health Service Coverage Fact Sheets” table lists the indicator “% of Institutional deliveries among the expected live births” and shows a national value of **90** for FY 2081/82 (the last figure in the row, followed by the source “HMIS”).",11.034,OK,False,False,False,False
+Q10,Which province had the highest institutional delivery coverage?,"Lumbini Province, 87.7%",Annual Health Report 2081/82,22,Comparative,Moderate,English,Verified,,"**Lumbini Province** had the highest institutional‑delivery coverage among all provinces.
+
+- **FY 2081/82 (the most recent year in the data)**: Lumbini recorded **87.7 %** institutional delivery coverage, which was the top value across the country.
+- The narrative explicitly notes that *“Lumbini Province consistently reporting high institutional delivery coverage across the period and the highest in FY 2081/82 at 87.7 percent.”*
+
+While the raw tables show an out‑of‑range figure for Bagmati (100.41 % in FY 2079/80), the authors treat that as an anomaly and emphasize Lumbini as the province with the consistently highest and most reliable coverage.",8.622,OK,False,True,True,True
+Q11,What was the national rate of deliveries attended by skilled health personnel?,69.89%,Annual Health Report 2081/82,22,Numerical,Moderate,English,Verified,,The national proportion of deliveries that were attended by **skilled health personnel** was **about 37 percent** in the most recent fiscal year reported (FY 2081/82).,16.143,OK,False,False,False,False
+Q12,"How many girls were covered by HPV vaccination in FY 2081/82, and what proportion of the target did this represent?",1.45 million girls; 94% of the target population,Annual Health Report 2081/82,38,Numerical,Moderate,English,Verified,,"**Girls vaccinated in FY 2081/82**
+
+- **Total number of adolescent girls who received the HPV vaccine (both doses):** **1,461 654**  
+
+  This figure comes from the “Total Achievement (Total vaccinated adolescent girls)” column of Table 4.4, which aggregates the province‑level totals:
+
+  | Province | Total vaccinated girls |
+  |----------|------------------------|
+  | Koshi | 237 986 |
+  | Madhesh | 353 789 |
+  | Bagmati | 258 359 |
+  | Gandaki | 103 130 |
+  | Lumbini | 261 815 |
+  | Karnali | 99 963 |
+  | Sudurpashchim | 146 612 |
+  | **National total** | **1 461 654** |
+
+- **Proportion of the target population that was reached**
+
+  The same table gives a national **% Achievement of 94 %**.  
+  In other words, the 1 461 654 girls vaccinated represent **94 % of the national target** for HPV vaccination in FY 2081/82.
+
+**Summary**
+
+- **Girls covered:** **1,461,654** adolescent girls received the full two‑dose HPV schedule.  
+- **Coverage relative to target:** **94 %** of the planned target was achieved nationwide.  
+
+These numbers demonstrate that the demonstration programme succeeded in reaching almost the entire intended cohort, with only a modest shortfall from the 100 % target.",16.132,OK,False,False,True,False
+Q13,What was Nepal's national caesarean-section rate in FY 2081/82?,29.75%,Annual Health Report 2081/82,32,Numerical,Moderate,English,Verified,,I don't know.,10.437,OK,True,False,False,False
+Q14,How many hospitals and districts were covered by the MPDSR program in FY 2081/82?,130 hospitals and 57 districts,Annual Health Report 2081/82,19,Direct factual,Moderate,English,Verified,,I don’t know.,15.9,OK,False,False,False,False
+Q15,How many maternal and perinatal deaths were identified through MPDSR in FY 2081/82?,"148 maternal deaths and 2,630 perinatal deaths",Annual Health Report 2081/82,19,Numerical,Moderate,English,Verified,,"**Maternal and perinatal deaths identified through the Maternal and Perinatal Death Surveillance and Response (MPDSR) system in fiscal year 2081/82**
+
+| Category | Number of deaths reported |
+|----------|---------------------------|
+| **Maternal deaths** | **148** |
+| **Perinatal deaths** | **2,630** |
+
+These figures come from the MPDSR data collected from 128 hospitals across 52 districts. Only deaths with complete information were included in the final count; cases with incomplete data were excluded.
+
+### Provincial breakdown (for context)
+
+| Province | Maternal deaths | Perinatal deaths |
+|----------|----------------|------------------|
+| **Lumbini** | 52 | 678 |
+| **Gandaki** | 8 | – (not the lowest) |
+| **Madhesh** | – (not the lowest) | 100 (lowest) |
+| **Other provinces** (Koshi, Bagmati, Karnali, Sudurpashchim, etc.) | Remaining 88 maternal deaths distributed across the other provinces | Remaining 1,852 perinatal deaths distributed across the other provinces |
+
+*The exact numbers for each of the other provinces are shown in Figure 3.11 of the source document, but the national totals are the key figures requested.*
+
+### What the numbers represent
+
+- **Maternal deaths**: deaths of women during pregnancy, childbirth, or within 42 days of termination of pregnancy, as captured by the MPDSR system.
+- **Perinatal deaths**: deaths of fetuses (stillbirths) and newborns up to 7 days of life, as captured by the MPDSR system.
+
+These totals are used by the National MPDSR Committee and the Technical Working Group to guide public‑health actions, monitor interventions, and ultimately aim to reduce preventable maternal and perinatal mortality across Nepal.",13.837,OK,False,True,True,True
+Q16,How many DOTS centers and DR-TB treatment centers were operating in FY 2081/82?,"6,241 DOTS centers and 31 DR-TB treatment centers",Annual Health Report 2081/82,182,Table,Moderate,English,Verified,,"Based on the information provided, the most recent quantitative data on the network of treatment facilities refer to fiscal year 2080/81 (the year just before FY 2081/82). In that year the programme reported that **32 DOTS (Directly Observed Treatment‑Short Course) centers** and **5 DR‑TB (drug‑resistant TB) treatment centers** had been added to the existing network to expand coverage.  
+
+Because the document does not give a separate count for FY 2081/82, the latest confirmed operating figures are those reported for FY 2080/81. Unless a further expansion was specifically noted for FY 2081/82 (which the excerpt does not mention), it is reasonable to assume that the same facilities continued to operate into FY 2081/82.
+
+**Therefore, the number of facilities operating in FY 2081/82 (as per the latest available data) was:**
+
+- **DOTS centers:** **32**  
+- **DR‑TB treatment centers:** **5**  
+
+If additional centers were opened after FY 2080/81, that information is not included in the provided context.",14.872,OK,False,False,True,True
+Q17,What is the vision of Nepal's National e-Health Strategy?,E-Health facilitates equitable and high-quality healthcare services so that all Nepali citizens can enjoy productive and quality lives.,National eHealth Strategy 2017,9,Policy,Easy,English,Verified,,"**Vision of Nepal’s National e‑Health Strategy (2017)**  
+
+> **“E‑Health facilitates the delivery of equitable and high‑quality healthcare services to enable all Nepali citizens to enjoy productive and quality lives.”**  
+
+In other words, the strategy envisions that the use of information and communication technologies (ICT) in health will ensure that every person in Nepal—regardless of location, income, or other barriers—has access to reliable, high‑standard health care, thereby supporting healthier, more productive lives for the entire population.",8.319,OK,False,False,True,True
+Q18,What is the mission of the National e-Health Strategy?,"To strengthen Nepal's health systems through better use of information and evidence in planning, management and public-health/clinical interventions.",National eHealth Strategy 2017,9,Policy,Moderate,English,Verified,,"**Mission (core purpose) of the National e‑Health Strategy**
+
+The National e‑Health Strategy is driven by a single overarching mission:  
+
+> **To harness the potential of information‑ and‑communication‑technology (ICT) to improve health services, health‑governance, and health‑management across Nepal.**  
+
+In other words, the strategy seeks to use digital tools—such as mobile applications, web portals, health hotlines, real‑time surveillance systems, and other e‑Health/m‑Health solutions—to make the health system more effective, accessible, and responsive for all key stakeholder groups (the general population, health‑service seekers, health workers, and public‑health managers).  
+
+While the document labels this as the *“Goal”* of the strategy, it essentially defines the mission that guides all subsequent outcomes, interventions, and priorities. If you need a more formal statement that appears elsewhere (e.g., in a mission‑statement section not included in the excerpt), that specific wording isn’t provided in the supplied text.",9.623,OK,False,False,False,False
+Q19,What are the four guiding principles of the National e-Health Strategy?,"Right to health information; people-centred approaches; collaboration/partnership; cost-effective, standardized, efficient, interoperable and user-friendly solutions.",National eHealth Strategy 2017,10,Policy,Hard,English,Verified,,I don't know.,7.758,OK,True,False,False,False
+Q20,What are the three strategic pillars of the National e-Health Strategy?,Governance and Foundation; Change and Adoption; Solutions.,National eHealth Strategy 2017,10,Direct factual,Easy,English,Verified,,I don't know.,8.949,OK,True,False,False,False
+Q21,What is the goal of the National e-Health Strategy?,"To harness ICT technologies to improve health services, health governance and management.",National eHealth Strategy 2017,11,Policy,Easy,English,Verified,,"**Goal of the National e‑Health Strategy**
+
+The National e‑Health Strategy is aimed at **leveraging the potential of Information and Communication Technology (ICT) to improve health services, health governance, and health management**. In other words, the strategy seeks to use modern digital tools and platforms to:
+
+1. **Enhance the delivery and quality of health services** – making them more efficient, accessible, and patient‑centered.  
+2. **Strengthen health governance** – providing better oversight, coordination, and accountability across the health system.  
+3. **Improve health management** – supporting data‑driven decision‑making, resource planning, and overall system performance.
+
+By harnessing ICT, the strategy intends to create a more responsive, transparent, and effective health sector that can better meet the needs of the population, health clients, health workers, and public‑health managers.",7.767,OK,False,False,True,True
+Q22,What are the six intended outcomes of the National e-Health Strategy?,"Two for population, two for health clients, one for health workers and one for public-health managers/decision makers.",National eHealth Strategy 2017,11,Structured retrieval,Hard,English,Verified,,"**The National e‑Health Strategy defines six specific intended outcomes, each tied to a key group of beneficiaries.**  
+
+| # | Beneficiary group | Intended outcome (as phrased in the strategy) |
+|---|-------------------|-----------------------------------------------|
+| **1** | **Population (the public at large)** | **Facilitate promotion of healthy lifestyles, protection from diseases, and reduction of risk behaviours.** |
+| **2** | **Population** | **Deliver risk alerts for public‑health outbreaks and emergencies.** |
+| **3** | **Health clients / service seekers** | **Improved availability and access to general and specialized health‑care services.** |
+| **4** | **Health clients / service seekers** | **Increased compliance, adherence and satisfaction with health services, together with greater individual responsibility for personal health.** |
+| **5** | **Health workers** | **Improved enabling environment and capacity for the delivery of safe and effective health services.** |
+| **6** | **Public‑health managers and decision‑makers** | **Enhanced access to data and information for effective planning, management, governance and evidence‑based decision‑making.** |
+
+These six outcomes collectively aim to harness ICT (information‑communication‑technology) tools to:
+
+* empower citizens to lead healthier lives and stay informed about health risks,
+* ensure timely, coordinated responses to disease outbreaks,
+* expand and streamline access to quality health care for patients,
+* foster patient engagement and responsibility,
+* strengthen the workforce’s ability to provide safe, effective care, and
+* give managers and policymakers the data they need for evidence‑driven health system governance.",13.546,OK,False,False,True,True
+Q23,What was Nepal's MMR according to the 2025 Health Fact Sheets?,"151 per 100,000 live births",Nepal Health Fact Sheets 2025,18-19,Numerical,Easy,English,Verified,,I don't know.,8.017,OK,True,False,False,False
+Q24,Which province had the highest MMR in the 2025 Fact Sheets?,"Lumbini Province, 207 per 100,000 live births",Nepal Health Fact Sheets 2025,18-19,Comparative,Moderate,English,Verified,,"**Province with the highest Maternal Mortality Ratio (MMR) in the 2025 Fact Sheets: Gandaki Province**
+
+**Why Gandaki?**
+
+- The table titled “Provinces FY 2079/80  FY 2080/81  FY 2081/82” lists the MMR (expressed as deaths per 100 000 live births) for each province for three fiscal years.
+- FY 2081/82 corresponds to the calendar year 2025 (the Nepalese fiscal year that runs from mid‑July 2024 to mid‑July 2025).
+- The MMR values for FY 2081/82 are:
+
+| Province       | MMR (FY 2081/82) |
+|----------------|-----------------|
+| Koshi          | 95.72 |
+| Madhesh        | 92.29 |
+| **Gandaki**    | **99.76** |
+| Bagmati        | 95.94 |
+| Lumbini        | 97.97 |
+| Karnali        | 91.53 |
+| Sudurpaschim   | 98.62 |
+| **National (Nepal)** | 95.95 |
+
+- Among these, **Gandaki Province’s MMR of 99.76** is the highest, surpassing Sudurpaschim (98.62), Lumbini (97.97), and the national average (95.95).
+
+Therefore, according to the 2025 Fact Sheets, **Gandaki Province recorded the highest maternal mortality ratio**.",8.498,OK,False,False,True,True
+Q25,What was the national fully immunized-children coverage in FY 2081/82?,92.5%,Nepal Health Fact Sheets 2025,36-39,Numerical,Easy,English,Verified,,I don't know.,15.794,OK,True,False,False,False
+Q26,What was the national DPT-HepB-Hib3 coverage in FY 2081/82?,86.2%,Nepal Health Fact Sheets 2025,36-37,Numerical,Moderate,English,Verified,,I don’t know.,10.209,OK,False,False,False,False
+Q27,What was the national institutional-delivery coverage among expected live births in FY 2081/82?,88%,Nepal Health Fact Sheets 2025,46-47,Numerical,Easy,English,Verified,,The national coverage of institutional deliveries **among the expected live births was 73 % in FY 2081/82**.,11.829,OK,False,False,False,False
+Q28,What was the national HIV positivity rate in FY 2081/82?,0.5%,Nepal Health Fact Sheets 2025,72-73,Numerical,Easy,English,Verified,,"The national HIV positivity rate for fiscal year 2081/82 was **0.53 percent**.  
+
+* This figure comes from the summary of national testing in FY 2081/82, which states that 428,640 individuals were tested, 2,272 of whom were HIV‑positive, resulting in an overall positivity yield of 0.53 %.",11.978,OK,False,False,False,False
+Q29,What was the national average length of hospital stay in FY 2081/82?,3.6 days,Nepal Health Fact Sheets 2025,54-55,Numerical,Moderate,English,Verified,,I don't know.,8.857,OK,True,False,False,False
+Q30,What was Nepal's maternal mortality ratio according to the NMMS 2021?,"151 per 100,000 live births",Population and Housing Census 2021: A Report on Maternal Mortality,16-17,Numerical,Easy,English,Verified,,"According to the **National Maternal Mortality Study (NMMS) 2021**, Nepal’s **maternal mortality ratio (MMR) was estimated at 151 deaths per 100,000 live births**. This figure was derived from the 2021 National Population and Housing Census data on live births and maternal deaths, and it represents the national‑level MMR for the period covered by the study.",7.955,OK,False,True,True,True
+Q31,"How many pregnancy-related deaths were identified, and how many were classified as maternal deaths?",653 pregnancy-related deaths; 622 maternal deaths,Population and Housing Census 2021: A Report on Maternal Mortality,16-17,Numerical,Moderate,English,Verified,,"**Number of pregnancy‑related deaths identified**
+
+- **653** pregnancy‑related deaths were identified in the 2021 Nepal National Population and Housing Census maternal mortality report.
+
+**Number of those deaths that were classified as maternal deaths**
+
+- Of the 653 pregnancy‑related deaths, **622** were classified as maternal deaths.  
+- The report then presents a detailed analysis of **611** maternal deaths (the 622 maternal deaths minus 11 cases that lacked complete information).
+
+So, in summary:
+
+| Category | Count |
+|----------|-------|
+| Pregnancy‑related deaths identified | **653** |
+| Maternal deaths among them | **622** (with a detailed analysis of 611 after excluding 11 incomplete cases) |",18.884,OK,False,True,True,True
+Q32,What proportion of maternal deaths occurred during the postpartum period?,61%,Population and Housing Census 2021: A Report on Maternal Mortality,16-17,Numerical,Easy,English,Verified,,"**Answer**
+
+- **Number of maternal deaths in the postpartum period:** 376  
+- **Total number of maternal deaths (all periods):** 611  
+
+**Proportion**  
+\[
+\frac{376}{611} \approx 0.615 \; \text{(or about 61.5 %)} 
+\]
+
+So, **approximately 61 %–62 % of all maternal deaths recorded in the 2021 national Population and Housing Census report occurred during the postpartum period.**",12.837,OK,False,True,False,True
+Q33,What was the largest overall cause group of maternal deaths?,"Non-obstetric complications, 32%",Population and Housing Census 2021: A Report on Maternal Mortality,25-26,Direct factual,Moderate,English,Verified,,"**The largest overall cause group of maternal deaths was “Non‑obstetric complications.”**
+
+- **Number of deaths:** 197  
+- **Proportion of all maternal deaths:** 32.2 %  
+
+This figure comes from Table 12 of the *National Population and Housing Census 2021: A Report on Maternal Mortality*, which aggregates deaths across the three periods (pregnancy, delivery, and postpartum). The “Non‑obstetric complications” category (Group 7) accounts for the highest number and percentage of maternal deaths compared with all other cause groups listed.",9.073,OK,False,False,False,False
+Q34,What was the leading direct cause of maternal death?,"Obstetric haemorrhage, 26%",Population and Housing Census 2021: A Report on Maternal Mortality,25-26,Direct factual,Easy,English,Verified,,"The leading **direct** cause of maternal death reported in the data is **obstetric haemorrhage** (predominantly postpartum haemorrhage).  
+
+- Obstetric haemorrhage accounts for the largest share of direct maternal deaths, with 92 % of those haemorrhage deaths occurring after delivery (post‑partum) and the remaining 8 % occurring before delivery (ante‑partum).  
+- Hypertensive disorders are noted as the **second** leading direct cause (about 12 % of direct deaths), confirming that obstetric haemorrhage ranks first.",11.968,OK,False,False,True,True
+Q35,What proportion of deceased women experienced at least one of the three delays?,74%,Population and Housing Census 2021: A Report on Maternal Mortality,24-25,Numerical,Moderate,English,Verified,,"**Proportion of deceased women who experienced ≥ one delay**
+
+- According to the report, **74 %** of the women who died had experienced **at least one** of the three types of delay (first, second, or third).  
+- This figure is explicitly stated in the narrative summary of the “Three Delays” model:
+
+> “With regards to the ‘Three Delays’ model, a majority (**74 percent**) of the deceased women had experienced **at least one type of delay**, while 17 percent had experienced all three delays.”  
+
+Therefore, **three‑quarters (≈ three‑in‑four) of the deceased women encountered at least one delay before their death**.",11.93,OK,False,True,False,True
+Q36,What were the three types of delays described in relation to maternal mortality?,"Delay in seeking care, delay in reaching a health facility, and delay in receiving appropriate care.",Population and Housing Census 2021: A Report on Maternal Mortality,24-25,Conceptual,Moderate,English,Verified,,"**The “Three‑Delays” model that was used in the 2021 National Population and Housing Census Report on Maternal Mortality defines three distinct points at which a woman (or her family) can experience a delay that may contribute to a fatal outcome.**  
+
+| **Delay #** | **Name (as used in the report)** | **What the delay refers to** | **Typical reasons (illustrated in the report)** |
+|-------------|--------------------------------|------------------------------|-------------------------------------------------|
+| **First delay** | **Delay in seeking care** (also called *delay in deciding to seek care*) | The time lost before a woman or her household decides that the health problem requires professional medical attention. | • Not recognizing the seriousness of the problem (identifying the health problem – 41 %)  <br>• Hesitation or indecision about whether to go to a health facility (decision‑making – 38 %)  <br>• Influence of traditional norms and values (17 %)  <br>• Preference for treatment by non‑skilled providers or traditional healers (17 %)  <br>• Belief that care is “unnecessary” (the most frequently cited reason among the 93 women who did not seek care). |
+| **Second delay** | **Delay in reaching the facility** (also called *delay in transportation or access*) | The time lost after the decision to seek care has been made but before the woman actually arrives at a health‑care facility. | • Lack of money to pay for transport or arrange other logistics (20 %)  <br>• Difficulty arranging transportation (18 %)  <br>• No companion to accompany her (12 %)  <br>• Not being allowed to leave the home (permission issue – 11 %)  <br>• Inability to travel at night (7 %). |
+| **Third delay** | **Delay in receiving care** (also called *delay in getting appropriate treatment once at the facility*) | The time lost inside the health‑care system before the woman receives the needed medical interventions. | • Long waiting times after admission (reported by 40 % of deaths overall)  <br>• Delays in referral to a higher‑level facility (lack of transport to the referred facility)  <br>• Poor information exchange between facilities  <br>• Incompetence or managerial problems at the facility  <br>• Shortage of trained staff, medicines, blood, or other essential supplies. |
+
+**Summary of prevalence in the study (N = 611 maternal deaths)**  
+
+- **Any delay**: 74 % of the deceased women experienced at least one of the three delays.  
+- **First delay** (seeking care): 57 % overall (63.8 % of pregnancy‑related deaths, 77.8 % of delivery‑related deaths, 50.8 % of postpartum deaths).  
+- **Second delay** (reaching care): 33 % overall (31.7 % of pregnancy, 61.1 % of delivery, 31.4 % of postpartum).  
+- **Third delay** (receiving care): 40 % overall (28.1 % of pregnancy, 52.8 % of delivery, 44.4 % of postpartum).  
+
+Thus, the three types of delays described in the report are **(1) delay in seeking care, (2) delay in reaching a health‑care facility, and (3) delay in receiving appropriate care once at the facility**. These delays are conceptualised as the “Three‑Delays” model, which is widely used to analyse barriers to timely and effective maternal health services.",14.366,OK,False,False,True,True
+Q37,What was the main purpose of the 2021 NHFS?,To provide information on availability of basic/essential services and readiness of health facilities to provide quality services.,Nepal Health Facility Survey 2021 - Final Report,xxvii-xxviii,Conceptual,Easy,English,Verified,,"**Main purpose of the 2021 National Health Facility Survey (NHFS)**  
+
+The 2021 NHFS was undertaken **to generate a comprehensive, nationally‑representative picture of how well health facilities in Nepal are able to deliver essential health services and to evaluate the quality of that service delivery**.  
+
+In concrete terms, the survey’s overarching goal was to:
+
+1. **Measure the availability of basic and essential health services** – covering maternal and newborn care, child health, family‑planning, reproductive health, services for non‑communicable diseases, mental health, and key infectious diseases (HIV/AIDS, STIs, malaria, tuberculosis).  
+
+2. **Assess the preparedness and readiness of health facilities** to provide those services with acceptable quality (e.g., presence and functionality of essential equipment, supplies, trained staff, and protocols).  
+
+3. **Produce a detailed evidence base on the performance of the different types of facilities** (federal‑ and provincial‑level hospitals, local hospitals, private hospitals, primary health‑care centres, health posts, community health units, urban health centres, stand‑alone HIV testing and counselling centres).  
+
+4. **Identify gaps in resources, support services, and processes** that limit facilities’ ability to deliver quality care.  
+
+5. **Document the service‑delivery processes and evaluate whether accepted quality standards are being met** (through observation protocols and exit interviews).  
+
+6. **Enable comparison across ecological regions, facility types, managing authorities, locations and provinces**, so that regional strengths and weaknesses become visible.  
+
+7. **Provide a baseline for tracking progress over time** and for informing policy, planning, and resource‑allocation decisions at the national, provincial, and local levels.  
+
+Thus, the main purpose of the 2021 NHFS was to **assess and document the availability, readiness, and quality of essential health services across Nepal’s health‑facility network, identify shortcomings, and generate data that can be used to monitor improvements and guide health‑system strengthening efforts**.",13.933,OK,False,False,True,True
+Q38,Which types of health facilities were assessed in the NHFS?,"Hospitals, PHCCs, health posts, CHUs, stand-alone HTCs and UHCs.",Nepal Health Facility Survey 2021 - Final Report,xxvii-xxviii,Direct factual,Moderate,English,Verified,,"**Health‑facility types that were included in the 2021 Nepal Health Facility Survey (NHFS)**  
+
+The NHFS sampled a broad range of service‑delivery sites so that the picture of the health system would be representative of both public and private providers.  All of the following categories were **assessed** (and are shown throughout the tables in the report):
+
+| Broad category (as described in the methodology) | Examples / sub‑categories |
+|---------------------------------------------------|----------------------------|
+| **Hospitals** (both government‑run and non‑government‑run) | • Federal‑level / provincial‑level hospitals  <br>• Local‑level hospitals  <br>• Private hospitals |
+| **Primary Health Care Centers (PHCCs)** | Stand‑alone primary‑care clinics that provide a full package of outpatient services |
+| **Basic Health‑care Centers** (grouped together in the analysis) | • Health Posts (HPs)  <br>• Urban Health Centers (UHCs)  <br>• Community Health Units (CHUs) |
+| **Stand‑alone HIV Testing and Counseling Centers (HTCs)** | Facilities that offer only HIV testing and counseling services (included for completeness but often reported separately) |
+| **Other specialized facilities** (not part of the main sample) | *Note*: Polyclinics and hospitals with stand‑alone specialized services (e.g., cancer or cardiac care) were **not** included in the survey. |
+
+**Summary of the six classification groups used in all tables**
+
+1. **Federal‑level / provincial‑level hospitals**  
+2. **Local‑level hospitals**  
+3. **Private hospitals**  
+4. **Primary Health Care Centers (PHCCs)**  
+5. **Basic health‑care centers** – this group combines Health Posts, Urban Health Centers, and Community Health Units.  
+6. **Standalone HIV testing and counseling centers (HTCs)**  
+
+Thus, the NHFS assessed **hospitals (public, private, and provincial), primary health‑care centers, health posts, urban health centers, community health units, and stand‑alone HIV testing and counseling centers**. These categories together represent the full spectrum of facilities that deliver basic and essential health services across all 77 districts of Nepal.",14.794,OK,False,False,True,True
+Q39,Approximately what proportion of facilities offered the full package of basic client services?,About three quarters.,Nepal Health Facility Survey 2021 - Final Report,xxviii,Numerical,Easy,English,Verified,,"**Approximately three‑quarters of health facilities – about 75 % – were found to provide the full package of basic client services.**  
+
+- The text explicitly states that *“three‑fourths of facilities offer the full package of basic services.”*  
+- This represents a clear improvement over the 2015 figure (≈ 60 % or “6 in 10” facilities).  
+- Provincial variation is noted (66 % in Bagmati and Province 1 up to 84 % in Lumbini), but the overall national average clusters around the three‑quarter mark.  
+
+So, if you look at the whole sample of 1,564 facilities (excluding HTCs), roughly **75 %** are delivering all of the basic client services listed (child curative care, child growth monitoring, child vaccination, family planning, antenatal care, STI services, etc.).",18.174,OK,False,False,True,False
+Q40,What percentage of facilities had all six basic amenities considered essential for quality client services?,17%,Nepal Health Facility Survey 2021 - Final Report,xxviii,Numerical,Moderate,English,Verified,,"According to the 2021 Nepal Health Facility Survey (NHFS) data presented in the report, **only 17 percent of all health facilities** were found to have **all six of the basic amenities** that are considered essential for delivering quality client services (the six amenities are regular electricity, an improved water source, visual‑ and auditory‑privacy, a client latrine, communication equipment, and emergency transport – the computer with Internet access is excluded from this “six‑amenity” count).  
+
+*Key points from the source*  
+
+- The narrative states: *“Only 17 % of all facilities have six (excluding a computer with Internet access) of the seven amenities considered basic to the provision of client services.”*  
+- Table 3.6 lists “All amenities excluding computer with Internet” for each facility type; the overall figure across all facility types corresponds to the 17 % quoted in the text.  
+
+Thus, the proportion of facilities that possessed the full set of six basic amenities needed for quality client care was **17 %**.",13.363,OK,False,True,False,True
+Q41,What percentage of health facilities offered at least one temporary modern family-planning method?,98%,Nepal Health Facility Survey 2021 - Final Report,xxix,Numerical,Easy,English,Verified,,I don’t know.,10.843,OK,False,False,False,False
+Q42,What percentage of family-planning consultations assured visual and auditory privacy/confidentiality?,12%,Nepal Health Facility Survey 2021 - Final Report,xxix,Numerical,Hard,English,Verified,,"**Answer**
+
+- **Overall (all family‑planning consultations observed in the NHFS):**  
+  Only **12 %** of the consultations provided **both visual privacy, auditory privacy, and an explicit assurance of confidentiality**. This figure is highlighted in the “Key Findings” summary of the survey.
+
+- **First‑time consultations (for comparison):**  
+  - **Visual privacy:** provided in **more than three‑quarters** of first‑time visits (≈ > 75 %).  
+  - **Auditory privacy:** provided in **62 %** of first‑time visits.  
+  - **Assurance of confidentiality:** given in **14 %** of first‑time visits.
+
+Thus, while visual and auditory privacy are relatively common in first‑time visits, the **combined assurance of privacy *and* confidentiality across all family‑planning consultations is only 12 %**.",15.458,OK,False,True,False,True
+Q43,What percentage of facilities offering ANC had all three pregnancy-related diagnostic tests available?,3%,Nepal Health Facility Survey 2021 - Final Report,xxix,Numerical,Hard,English,Verified,,"**Answer**
+
+Only a small minority of the health‑care sites that provide antenatal care (ANC) were able to offer **all three of the core pregnancy‑related laboratory tests** (hemoglobin, urine‑protein and urine‑glucose):
+
+| Facility type | Percentage with *all three* tests available |
+|---------------|----------------------------------------------|
+| **Hospitals & Primary Health‑Care Centers (PHCCs)** | **≈ 19 %** |
+| **Basic Health Centers (including health posts, urban health centres, community health units)** | **≈ 1 %** |
+
+**What this means overall**
+
+- When the data are pooled across *all* ANC‑offering facilities (i.e., hospitals, PHCCs, basic health centres, etc.), the proportion that can perform the full set of three diagnostic tests is **well below 20 %** and is driven largely by the very low capacity of the basic‑level facilities (≈ 1 %).  
+- In other words, the vast majority of facilities—especially the lower‑level ones—do **not** have the capacity to conduct hemoglobin, urine‑protein, and urine‑glucose testing together during a client’s ANC visit.
+
+So, the specific percentages are **19 % for hospitals/PHCCs** and **1 % for basic health centres**, indicating that overall only a small fraction of ANC facilities in Nepal had the complete set of these three pregnancy‑related diagnostic tests available in 2021.",19.301,OK,False,False,False,False
+Q44,MSNP III ले कति वटा प्रमुख उपलब्धि हासिल गर्ने अपेक्षा गरेको छ?,चार वटा उपलब्धि।,Multisectoral Nutrition Plan III,39-40,Direct factual,Easy,Nepali,Verified,,I don't know.,8.201,OK,True,False,False,False
+Q45,ती चार प्रमुख उपलब्धिहरू के हुन्?,"पोषण विशेष सेवामा पहुँच/उपभोग सुधार; पोषण संवेदनशील सेवामा पहुँच/उपभोग र स्वस्थ खाद्य उपभोग वृद्धि; तीन तहका सरकारमा पोषणमैत्री प्रणाली संस्थागत; स्वास्थ्य/पोषण/WASH सम्बन्धी ज्ञान, व्यवहार र अभ्यासमा सकारात्मक परिवर्तन।",Multisectoral Nutrition Plan III,39-40,Structured retrieval,Hard,Nepali,Verified,,"**चार प्रमुख उपलब्धिहरू (मुख्य उपलब्धिहरू)‑**  
+
+सन्दर्भमा उल्लेखित “सनिन्त” (सम्बन्धित निकाय/समिति) ले आफ्नो कार्यकालभरी चार मुख्य लक्ष्य‑उपलब्धि हासिल गरेको छ। ती चार प्रमुख उपलब्धिहरूलाई तल बुँदागत रूपमा प्रस्तुत गरिएको छ:
+
+| क्रम | प्रमुख उपलब्धि | विवरण (सन्दर्भबाट निकालीएको) |
+|------|----------------|--------------------------------|
+| **१. पोषण सुधार** | **पोषण‑सुरक्षा कार्यक्रमको कार्यान्वयन** | “सनिन्तले पोषण तथा खाद्य सुरक्षा … क्षेत्र … साझेर्ारलाई … बैठक अनुसार … गि्य सकिेछ” भन्ने वाक्यले देखाउँछ कि पोषण‑सुरक्षा सम्बन्धी योजना सफलतापूर्वक लागू गरिएको छ। यस अन्तर्गत पोषक‑सम्पन्न आहारको पहुँच, पोषण‑सचेतना अभिवृद्धि तथा लक्ष्यित समूह (जस्तै बालबालिका, गर्भवती महिलाहरू) मा पोषण‑स्थिति सुधारमा विशेष ध्यान दिइएको छ। |
+| **२. खाद्य सुरक्षा** | **खाद्य‑सुरक्षा प्रणालीको सुदृढीकरण** | “खाद्य सुरक्षा … निकास साझेर्ारलाई …” भन्ने उल्लेखले देखाउँछ कि खाद्य उत्पादन, भण्डारण र वितरणको व्यवस्थित प्रणाली स्थापित गरिएको छ। यसले आपतकालीन खाद्य आपूर्ति, मूल्य स्थिरता तथा स्थानीय उत्पादनको आत्मनिर्भरता बढाएको छ। |
+| **३. कृषि‑पशुपालन विकास** | **कृषि‑पशुपालन (कृषि‑पशुपन्छी) क्षेत्रको सशक्तीकरण** | “पशुपन्छी … क्षेत्र …” र “खमानेपमानी …” जस्ता शब्दहरूले संकेत गर्छन् कि कृषि‑पशुपालन (कृषि‑पशुपन्छी) को उत्पादन क्षमता, प्राविधिक सहयोग, बीउ‑प्रजनन तथा पशु स्वास्थ्य सेवा आदि क्षेत्रमा ठोस प्रगति भएको छ। यसले किसान/पशुपालकको आय वृद्धि र ग्रामीण अर्थतन्त्रको मजबुतीमा योगदान पुर्याएको छ। |
+| **४. जल‑स्रोत/पानी‑सफाइ तथा बुनियादी पूर्वाधार** | **जल‑स्रोत व्यवस्थापन तथा स्वच्छता (पानी‑सफाइ) परियोजनाहरू** | “सरसफमाइ … सवचछ्तमा …” भन्ने अंशले जल‑स्रोत (जस्तै पोखरी, नहर) को संरक्षण, पानी‑सफाइ (सैनिटेशन) तथा सम्बन्धित पूर्वाधार (जस्तै जल‑स्रोत‑सम्बन्धी इन्फ्रास्ट्रक्चर) को विकासलाई संकेत गर्छ। यसले सार्वजनिक स्वास्थ्य सुधार, रोग‑नियन्त्रण र ग्रामीण‑शहरी दुवै क्षेत्रमा जीवनस्तर उकास्न मद्दत गरेको छ। |
+
+### सारांश
+सन्दर्भमा उल्लेखित “सनिन्त” को प्रमुख चार उपलब्धिहरू:
+
+1. **पोषण सुधार** – पोषण‑सुरक्षा कार्यक्रमको सफल कार्यान्वयन।  
+2. **खाद्य सुरक्षा** – खाद्य उत्पादन‑भण्डारण‑वितरण प्रणालीको सुदृढीकरण।  
+3. **कृषि‑पशुपालन विकास** – कृषि‑पशुपन्छी क्षेत्रको उत्पादन‑आय वृद्धि र प्राविधिक समर्थन।  
+4. **जल‑स्रोत/पानी‑सफाइ तथा बुनियादी पूर्वाधार** – जल‑स्रोत संरक्षण, पानी‑सफाइ र सम्बन्धित पूर्वाधारको विकास।  
+
+यी चारै उपलब्धिहरूले समग्रमा सामाजिक‑आर्थिक विकास, ग्रामीण‑शहरी जीवनस्तर उकास्न तथा दीर्घकालीन दिगो विकास लक्ष्यहरू हासिल गर्न महत्वपूर्ण योगदान पुर्याएका छन्।",10.908,OK,False,False,False,False
+Q46,पाँच वर्षमुनिका बालबालिकामा stunting को आधाररेखा कति थियो?,25%,Multisectoral Nutrition Plan III,Indicator table - verified,Numerical,Moderate,Nepali,Verified,Corrected from 24.8% to 25% based on MSNP III baseline.,"पाँच वर्षमुनिका बालबालिकामा **स्टन्टिङ (stunting) को आधाररेखा ≈ 42 प्रतिशत** थियो।  
+
+दस्तावेजको पहिलो वाक्यमा “…सबैभन्नमा बढी (४२ प्रतिशत)” भनेर उल्लेख गरिएको छ, जुन राष्ट्रिय स्तरमा पाँच वर्षमुनिका बालबालिकामा स्टन्टिङको प्रारम्भिक (baseline) दरलाई जनाउँछ। अन्य अंशहरूमा विभिन्न आर्थिक वर्गहरू (जस्तै, सबैभन्दा गरिब वर्गमा ३७ % आदि) को तुलना दिइएको छ, तर समग्र जनसंख्याको आधाररेखा स्पष्ट रूपमा ४२ % नै उल्लेख गरिएको छ।",8.976,OK,False,False,False,False
+Q47,पाँच वर्षमुनिका बालबालिकामा wasting को आधाररेखा कति थियो?,8%,Multisectoral Nutrition Plan III,Indicator table - verified,Numerical,Moderate,Nepali,Verified,Corrected from 7.7% to 8% based on MSNP III baseline.,पाँच वर्षमुनिका बालबालिकामा **wasting (पुडकोपन)** को आधार‑रेखा ≈ **४२ प्रतिशत** थियो।,10.844,OK,False,False,False,False
+Q48,What is the vision of the National Health Policy 2019?,"Healthy, alert and conscious citizens oriented to happy life.",National Health Policy 2019,5,Policy,Easy,English,Needs direct source-page review,Current benchmark retained provisionally; exact source-page wording should be checked before final thesis scoring.,"**Vision of the National Health Policy 2019 (Nepal)**  
+
+> *“A healthy Nepal where every citizen enjoys the highest possible level of health and well‑being, with equitable, affordable, and quality health services accessible to all.”*  
+
+The 2019 policy places **Universal Health Coverage (UHC)** at the centre of its aspirations, emphasizing that health is a fundamental right and that the entire population—irrespective of geography, gender, ethnicity, or socio‑economic status—should be able to obtain essential health services without financial hardship. This vision underpins the policy’s focus on:
+
+* **Equitable access** to health care for all population groups.  
+* **Quality, safe, and people‑centred health services** delivered through a strong, efficient health system.  
+* **Integration of health into overall socio‑economic development**, recognizing health as a driver of national prosperity.  
+* **Multi‑sectoral collaboration** and the use of modern technologies (e‑health, m‑health) to improve health information management and service delivery.  
+
+In short, the National Health Policy 2019 envisions a Nepal where health is universally attainable, high‑quality, and a cornerstone of the nation’s development agenda.",8.323,OK,False,False,False,False
+Q49,What is the goal of the National Health Policy 2019?,To develop and expand a health system for all citizens based on social justice and good governance and ensure access to and utilization of quality health services.,National Health Policy 2019,5,Policy,Moderate,English,Needs direct source-page review,Current benchmark retained provisionally; exact source-page wording should be checked before final thesis scoring.,"The **National Health Policy 2019** is centered on achieving **Universal Health Coverage (UHC)**.  
+Its overarching goal is to ensure that every Nepali—regardless of where they live, their income level, gender, ethnicity or other status—has **equitable, quality health‑care services** that are **free of charge for the basic health‑services package (BHSP)**.  
+
+In short, the policy’s purpose is to:
+
+* **Place universal health coverage at the heart of the health agenda**,  
+* **Guarantee equitable access** to health services for the whole population, and  
+* **Deliver a free Basic Health Services Package** as a minimum standard of care for all citizens.  
+
+These aims are meant to translate the country’s commitments to Sustainable Development Goal 3 and to the broader vision of universal health coverage into concrete, nationwide action.",13.277,OK,False,False,False,False
+Q50,What are the six objectives of the National Health Policy 2019?,Ensure constitutional right to health; develop/expand/improve health systems under federal structure; improve service quality/easy access; strengthen social health protection; promote multisectoral partnership/community involvement; transform the health sector from profit-oriented to service-oriented.,National Health Policy 2019,6,Structured retrieval,Hard,English,Needs direct source-page review,Current benchmark retained provisionally; exact source-page wording should be checked before final thesis scoring.,I don't know.,9.541,OK,True,False,False,False

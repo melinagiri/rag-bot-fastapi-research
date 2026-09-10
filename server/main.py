@@ -2,10 +2,12 @@ import uvicorn
 
 from fastapi import FastAPI
 
-from api.routes import router
-from core.vector_database import initialize_empty_vectorstores
-from utils.logger import logger
-
+# from api.routes import router
+from server.api.routes import router
+# from core.vector_database import initialize_empty_vectorstores
+from server.core.vector_database import initialize_empty_vectorstores
+# from utils.logger import logger
+from server.utils.logger import logger
 
 app = FastAPI(title="RAG PDFBot", description="Chat with multiple PDFs :books:")
 app.include_router(router)

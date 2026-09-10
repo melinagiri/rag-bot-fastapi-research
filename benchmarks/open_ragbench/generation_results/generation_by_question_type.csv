@@ -1,0 +1,7 @@
+﻿condition,question_type,questions,mean_lexical_f1,idk_percent,mean_latency_seconds
+R0_k3,abstractive,37,0.3184,18.92,66.947
+R0_k3,extractive,23,0.2783,30.43,376.478
+R1_k10,abstractive,37,0.3328,21.62,18.111
+R1_k10,extractive,23,0.2829,26.09,15.102
+R2_k10_optimized,abstractive,37,0.3193,21.62,13.933
+R2_k10_optimized,extractive,23,0.2811,30.43,9.145

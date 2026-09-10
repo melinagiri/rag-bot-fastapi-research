@@ -1,0 +1,13 @@
+﻿condition,source,questions,mean_lexical_f1,idk_percent,mean_latency_seconds
+R0_k3,text,35,0.3468,20.0,269.574
+R0_k3,text-image,17,0.2485,23.53,75.946
+R0_k3,text-table,2,0.2469,0.0,52.418
+R0_k3,text-table-image,6,0.2211,50.0,50.835
+R1_k10,text,35,0.367,17.14,17.011
+R1_k10,text-image,17,0.2424,29.41,11.002
+R1_k10,text-table,2,0.333,0.0,32.138
+R1_k10,text-table-image,6,0.1975,50.0,28.462
+R2_k10_optimized,text,35,0.3563,17.14,11.335
+R2_k10_optimized,text-image,17,0.2406,35.29,11.361
+R2_k10_optimized,text-table,2,0.2802,0.0,42.02
+R2_k10_optimized,text-table-image,6,0.1926,50.0,8.661

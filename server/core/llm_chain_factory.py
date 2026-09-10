@@ -1,14 +1,12 @@
-from config.settings import GROQ_API_KEY, GOOGLE_API_KEY
-
-from langchain.prompts import ChatPromptTemplate
-from langchain.chains import create_retrieval_chain
-from langchain.chains.combine_documents import create_stuff_documents_chain
+from server.config.settings import GROQ_API_KEY, GOOGLE_API_KEY
+from langchain_core.prompts import ChatPromptTemplate
+from langchain_classic.chains import create_retrieval_chain
+from langchain_classic.chains.combine_documents import create_stuff_documents_chain
 
 from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_groq import ChatGroq
 
-from utils.logger import logger
-
+from server.utils.logger import logger
 
 def get_prompt():
   logger.debug("Creating chat prompt template.")
@@ -31,7 +29,7 @@ def build_llm_chain(model_provider: str, model: str, vectorstore):
   logger.debug(f"Building LLM chain for provider: {model_provider}, model: {model}")
   prompt = get_prompt()
   llm = get_llm(model_provider, model)
-  retriever = vectorstore.as_retriever(search_kwargs={"k": 3})
+  retriever = vectorstore.as_retriever(search_kwargs={"k": 6})
 
   return create_retrieval_chain(
     retriever,
